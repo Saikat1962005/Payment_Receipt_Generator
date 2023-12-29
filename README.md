@@ -1,4 +1,7 @@
 # Payment_Receipt_Generator
+'''The provided Python code defines a class, PaymentReceiptGenerator, which serves to generate payment receipts for a store's transactions. The class allows users to input product details, including name, unit price, and quantity, and then generates a formatted payment receipt. The receipt includes customer information, a list of purchased products with individual and total prices, and is displayed in the console. The script, when run, prompts the user to enter product details iteratively until the user indicates completion. The generated payment receipt is then presented, featuring a visually structured format with asterisks and dashes for emphasis. The code demonstrates the use of exception handling for input validation and employs a user-friendly interface for creating and displaying payment receipts.'''
+
+#Code
 class PaymentReceiptGenerator:
     def _init_(self):
         self.products = []
